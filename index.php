@@ -29,16 +29,40 @@
     <header>Hey user, willkommen im Homeserver-Dashboard!</header>
     <div class="container">
         <div class="multimedia row">
-            
+            <div class="columns_container">
+                <div class="feld1 button"></div>
+                <div class="feld2 button"></div>
+                <div class="feld3 button"></div>
+                <div class="feld4 button"></div>
+                <div class="feld5 button"></div>
+            </div>
         </div>
         <div class="services row">
-
+            <div class="columns_container">
+                <div class="feld1 button"></div>
+                <div class="feld2 button"></div>
+                <div class="feld3 button"></div>
+                <div class="feld4 button"></div>
+                <div class="feld5 button"></div>
+            </div>
         </div>
         <div class="system row">
-
+            <div class="columns_container">
+                <div class="feld1 button"></div>
+                <div class="feld2 button"></div>
+                <div class="feld3 button"></div>
+                <div class="feld4 button"></div>
+                <div class="feld5 button"></div>
+            </div>
         </div>
         <div class="other row">
-
+            <div class="columns_container">
+                <div class="feld1 button"></div>
+                <div class="feld2 button"></div>
+                <div class="feld3 button"></div>
+                <div class="feld4 button"></div>
+                <div class="feld5 button"></div>
+            </div>
         </div>
     </div>
 
