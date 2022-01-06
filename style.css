@@ -65,3 +65,40 @@ header {
 .other {
     grid-area: other;
 }
+
+.columns_container {
+    /* Full height */
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "feld1" "feld2" "feld3" "feld4" "feld5";
+}
+
+.feld1 {
+    grid-area: feld1;
+}
+
+.feld2 {
+    grid-area: feld2;
+}
+
+.feld3 {
+    grid-area: feld3;
+}
+
+.feld4 {
+    grid-area: feld4;
+}
+
+.feld5 {
+    grid-area: feld5;
+}
+
+.button {
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+}
