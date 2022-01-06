@@ -5,6 +5,8 @@
     --background-color: #002022;
     --header-background-color: #3a2021;
     --font-color: #f8f8f8;
+    --button-border-color: #f8f8f8;
+    --button-background-color: #001a1a;
 }
 
 html,
@@ -69,36 +71,83 @@ header {
 .columns_container {
     /* Full height */
     height: 100%;
+    width: 98%;
+    margin-left: 4%;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-rows: 16% 16% 16% 16% 16% 16% 4%;
     gap: 0px 0px;
     grid-auto-flow: row;
-    grid-template-areas: "feld1" "feld2" "feld3" "feld4" "feld5";
+    grid-template-areas: "row_title" "field1" "field2" "field3" "field4" "field5";
 }
 
-.feld1 {
-    grid-area: feld1;
+
+/*
+Row title
+*/
+
+.row_title {
+    /* Assign it to the row-grid */
+    grid-area: row_title;
+    /* Get the own grid cmponents */
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 100%;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "row_icon row_text";
+    /* Set margin to the sides to 10px */
+    margin: 0px 15px;
 }
 
-.feld2 {
-    grid-area: feld2;
+.row_icon {
+    grid-area: row_icon;
+    /* Center the icon vertically and horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+    font-size: 200%;
 }
 
-.feld3 {
-    grid-area: feld3;
+.row_text {
+    grid-area: row_text;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 200%;
+    margin: 2%;
 }
 
-.feld4 {
-    grid-area: feld4;
+.field1 {
+    grid-area: field1;
 }
 
-.feld5 {
-    grid-area: feld5;
+.field2 {
+    grid-area: field2;
+}
+
+.field3 {
+    grid-area: field3;
+}
+
+.field4 {
+    grid-area: field4;
+}
+
+.field5 {
+    grid-area: field5;
 }
 
 .button {
-    margin: 20px;
+    margin: 5% 10px;
     border-radius: 10px;
-    background-color: #f8f8f8;
+    background-color: var(--button-background-color);
+    border: var(--button-border-color) dotted 3px;
+}
+
+.row_title {
+    font-size: 2.5vh;
+    font-weight: bold;
+    text-align: center;
 }
