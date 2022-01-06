@@ -27,7 +27,7 @@
 
 <body>
     <header>Hey user, willkommen im Homeserver-Dashboard!</header>
-    <div class="container">
+    <div class="row_container">
         <div class="multimedia row">
             
         </div>

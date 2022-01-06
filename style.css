@@ -37,7 +37,7 @@ header {
     font-size: 2.5vh;
 }
 
-.container {
+.row_container {
     /* Width = full page - 40px */
     width: calc(100% - 40px);
     /* Height = full page - header height - 20px */
