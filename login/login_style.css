@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+:root {
+    /* All variables */
+    --font-family: 'Source Code Pro', monospace;
+    --background-color: #002022;
+    --header-background-color: #3a2021;
+    --font-color: #f8f8f8;
+    --form-background-color: #203a36;
+}
+
+html,
+body {
+    /* This should go full size */
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* Font-Family */
+    font-family: var(--font-family);
+    /* Background color */
+    background-color: var(--background-color);
+    /* Font color */
+    color: var(--font-color);
+}
+
+
+/* The form */
+
+#login {
+    width: 400px;
+    background-color: var(--form-background-color);
+    box-shadow: 0 0 10px 0 #000;
+    margin: 100px auto;
+    border-radius: 15px;
+}
+
+#login h1 {
+    text-align: center;
+    color: var(--font-color);
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#login form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#login form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: var(--background-color);
+    color: var(--font-color);
+    border-radius: 5px;
+}
+
+#login form input[type="password"]:focus,
+#login form input[type="text"]:focus,
+#login form label:hover {
+    background-color: var(--header-background-color);
+}
+
+#login form input[type="password"],
+#login form input[type="text"] {
+    width: 300px;
+    height: 50px;
+    border: 1px solid var(--background-color);
+    background-color: var(--background-color);
+    color: var(--font-color);
+    margin-bottom: 20px;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#login form input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    background-color: var(--header-background-color);
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--font-color);
+    transition: background-color 0.2s;
+    border-radius: 15px;
+}
+
+#login form input[type="submit"]:hover {
+    background-color: var(--background-color);
+    transition: background-color 0.2s;
+}
