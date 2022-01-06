@@ -26,12 +26,10 @@
 </head>
 
 <body>
-    <header>
-        Hey, ${user.name}, willkommen im Homeserver-Dashboard!
-    </header>
+    <header>Hey user, willkommen im Homeserver-Dashboard!</header>
     <div class="container">
         <div class="multimedia row">
-
+            
         </div>
         <div class="services row">
 
