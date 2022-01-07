@@ -26,7 +26,7 @@
 </head>
 
 <body>
-    <header>Hey user, willkommen im Homeserver-Dashboard!</header>
+    <header>Hey <?php echo($_SESSION['name']); ?>, willkommen im Homeserver-Dashboard!</header>
     <div class="row_container">
         <div class="multimedia row">
             <div class="columns_container">
