@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeUI - Einrichtung</title>
+    <!-- Link the stylesheet setup_style.css -->
+    <link rel="stylesheet" href="../setup_style.css">
+</head>
+
+<body>
+    <h1>Einrichtung - Schritt 1</h1>
+    <p>
+        HomeUI ben&ouml;tigt eine Datenbank um zu funktionieren.
+    </p>
+    <p>
+        Bitte gib die Datenbank-Daten ein.
+    </p>
+    <p>
+        Dafür öffnest du jetzt einfach die Datei "config.php" in deinem HomeUI-Ordner.
+    </p>
+    <p>
+        Hier trägst du einfach alle Datenbank-Zugangsdaten ein.
+    </p>
+    <p class="warning">
+        <strong>Wichtig:</strong>
+        <br> Wenn du einen eigenen Benutzer für HomeUI nutzen willst, musst du vorher den nutzer manuell anlegen.
+        <br> Sonst benutze einfach den nutzer "root"
+    </p>
+    <p>
+        Wenn du fertig bist, klicke auf "Verbindung pr&uuml;fen".
+    </p>
+    <p id="connection_check_result"></p>
+    <button id="check" onclick="checkDatabaseCredentials('de');">Verbindung pr&uuml;fen</button>
+    <br>
+    <button id="continue" onclick="window.location.href='2.html'" disabled>Weiter</button>
+    <br>
+    <button onclick="window.location.href='../index.php'">Zurück</button>
+
+    <!-- The standart script -->
+    <script src="../setup.js"></script>
+    <!-- JQuery -->
+    <script src="../jquery-3.6.0.min.js"></script>
+</body>
+
+</html>
