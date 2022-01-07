@@ -25,3 +25,23 @@ Jedoch empfehle ich die Icons unter https://github.com/edent/SuperTinyIcons
 - Gehe auf die Website deines Homeservers (z.B. https://localhost/homeserver/) und dort wirst du dann durch den Einrichtungsprozess geführt.
 
 
+
+# English | Englisch
+
+## Icons
+
+I'm not allowed to provide icons, due to copyright reasons.
+But I recommend the icons under https://github.com/edent/SuperTinyIcons
+
+## Requirements
+- Webserver with PHP 7.2
+- SQL database
+
+## Installation
+- Copy the whole folder into your webserver directory (usually called htdocs)
+- Start the webserver
+
+## Setup
+- Go to the website of your homeserver (e.g. https://localhost/homeserver/) and you will be guided through the setup process.
+
+
