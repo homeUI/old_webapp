@@ -144,6 +144,12 @@ Row title
     border-radius: 10px;
     background-color: var(--button-background-color);
     border: var(--button-border-color) dotted 3px;
+
+.empty {
+    /* Dont display it */
+    display: none;
+}
+
 }
 
 .row_title {
