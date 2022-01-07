@@ -1,7 +1,7 @@
 <?php 
 
     // Database name
-    $dbname = "homeUI";
+    $dbname = "homeui";
 
     // Datenbank Zugangsdaten
     include("../config.php");
