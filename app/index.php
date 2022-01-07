@@ -4,7 +4,7 @@
 
     // Check if user is logged in
     if (!isset($_SESSION['loggedin'])) {
-        header('Location: ./login/');
+        header('Location: ../login/');
         exit;
     }
 ?>
