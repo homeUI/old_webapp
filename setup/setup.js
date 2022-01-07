@@ -86,3 +86,27 @@ function createDatabase() {
         }
     });
 }
+
+
+// 
+// Tables creation
+//
+
+function createTables() {
+
+    // execute createdatabase.php
+    $.ajax({
+        url: '../createtables.php',
+        success: function(data) {
+            switch (data) {
+                case 'YES':
+                    // Redirect to 4.html
+                    window.location.href = "4.html";
+                    break;
+                default:
+                    alert(data);
+                    break;
+            }
+        }
+    });
+}

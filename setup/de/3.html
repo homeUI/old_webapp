@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeUI - Einrichtung</title>
+    <!-- Link the stylesheet setup_style.css -->
+    <link rel="stylesheet" href="../setup_style.css">
+</head>
+
+<body>
+    <h1>Einrichtung - Schritt 3</h1>
+    <p>
+        HomeUI ben&ouml;tigt eine Datenbank um zu funktionieren.
+    </p>
+    <p>
+        Wir werden nun die benötigten Tabellen in der Datenbank anlegen.
+    </p>
+    <p>
+        Klicke auf "Tabellen anlegen", wenn du damit einverstanden bist, dass nun die Tabellen angelegt werden.
+    </p>
+    <p>
+        Wenn das funktioniert hat, wirst du automatisch weitergeleitet.
+    </p>
+
+    <!-- The button to create the database -->
+    <!-- We DONT have to pass the language because we have no backcoming output message -->
+    <button onclick="createTables()">Tabellen anlegen</button>
+    <button onclick="window.location.href='2.html'">Zurück</button>
+
+    <!-- The standart script -->
+    <script src="../setup.js"></script>
+    <!-- JQuery -->
+    <script src="../jquery-3.6.0.min.js"></script>
+</body>
+
+</html>
