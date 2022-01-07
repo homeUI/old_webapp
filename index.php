@@ -38,13 +38,11 @@
                 </div>
                 <div class="feld1 button">
                     <div class="button_icon">
-
+                        <img src="./icons/plex.svg">
                     </div>
-                    <div class="button_name">
-
-                    </div>
+                    <div class="button_name">Plex</div>
                 </div>
-                <div class="feld2 button">
+                <div class="feld2 button empty">
                     <div class="button_icon">
 
                     </div>
@@ -52,7 +50,7 @@
                         
                     </div>
                </div>
-                <div class="feld3 button">
+                <div class="feld3 button empty">
                     <div class="button_icon">
 
                     </div>
@@ -60,7 +58,7 @@
                         
                     </div>
                </div>
-                <div class="feld4 button">
+                <div class="feld4 button empty">
                     <div class="button_icon">
 
                     </div>
@@ -68,7 +66,7 @@
                         
                     </div>
                </div>
-                <div class="feld5 button">
+                <div class="feld5 button empty">
                     <div class="button_icon">
 
                     </div>
@@ -90,29 +88,29 @@
                 </div>
                 <div class="feld1 button">
                     <div class="button_icon">
-
+                        <img src="./icons/bitwarden.svg">
                     </div>
                     <div class="button_name">
-                        
+                        Bitwarden
                     </div>
                </div>
                 <div class="feld2 button">
                     <div class="button_icon">
-
+                        <img src="icons/nextcloud.svg">
                     </div>
                     <div class="button_name">
-                        
+                        Nextcloud
                     </div>
                </div>
                 <div class="feld3 button">
                     <div class="button_icon">
-
+                        <img src="icons/gitlab.svg">
                     </div>
                     <div class="button_name">
-                        
+                        Gitlab
                     </div>
                </div>
-                <div class="feld4 button">
+                <div class="feld4 button empty">
                     <div class="button_icon">
 
                     </div>
@@ -122,10 +120,10 @@
                </div>
                 <div class="feld5 button">
                     <div class="button_icon">
-
+                        <img src="./icons/minecraft.svg">
                     </div>
                     <div class="button_name">
-                        
+                        MC-Server
                     </div>
                </div>
             </div>
@@ -138,23 +136,23 @@
                     </div>
                     <div class="row_text">System</div>
                 </div>
-                <div class="feld1 button">
+                <div onclick="location.href = 'http:\/\/192.168.2.1'" class="feld1 button">
                     <div class="button_icon">
-
+                        <img src="./icons/fritz.svg">
                     </div>
                     <div class="button_name">
-                        
+                        FritzBox
                     </div>
                </div>
                 <div class="feld2 button">
                     <div class="button_icon">
-
+                        <img src="./icons/raspi.svg">
                     </div>
                     <div class="button_name">
-                        
+                        PiHole
                     </div>
                </div>
-                <div class="feld3 button">
+                <div class="feld3 button empty">
                     <div class="button_icon">
 
                     </div>
@@ -162,7 +160,7 @@
                         
                     </div>
                </div>
-                <div class="feld4 button">
+                <div class="feld4 button empty">
                     <div class="button_icon">
 
                     </div>
@@ -170,7 +168,7 @@
                         
                     </div>
                </div>
-                <div class="feld5 button">
+                <div class="feld5 button empty">
                     <div class="button_icon">
 
                     </div>
@@ -192,13 +190,21 @@
                 </div>
                 <div class="feld1 button">
                     <div class="button_icon">
-
+                        <img src="./icons/homekit.svg">
                     </div>
                     <div class="button_name">
+                        SmartHome
+                    </div>
+               </div>
+                <div class="feld2 button empty">
+                    <div class="button_icon">
+
+                    </div>
+                    <div class="button_name empty">
                         
                     </div>
                </div>
-                <div class="feld2 button">
+                <div class="feld3 button empty">
                     <div class="button_icon">
 
                     </div>
@@ -206,16 +212,15 @@
                         
                     </div>
                </div>
-                <div class="feld3 button">
+                <div class="feld4 button empty">
                     <div class="button_icon">
 
                     </div>
                     <div class="button_name">
-                        
+
                     </div>
-               </div>
-                <div class="feld4 button"></div>
-                <div class="feld5 button">
+                </div>
+                <div class="feld5 button empty">
                     <div class="button_icon">
 
                     </div>
