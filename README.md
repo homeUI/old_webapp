@@ -17,7 +17,7 @@ Jedoch empfehle ich die Icons unter https://github.com/edent/SuperTinyIcons
 - Webserver mit PHP 7.2
 
 ## Installation  
-- Kopiere den gesampegten Ordner in dein Webserver-Verzeichnis (meist htdocs)
+- Kopiere den gesamten Ordner in dein Webserver-Verzeichnis (meist htdocs genannt)
 - Starte den Webserver
 
 ## Einrichtung
