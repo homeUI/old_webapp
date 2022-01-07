@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeUI - Setup</title>
+    <!-- Link the stylesheet setup_style.css -->
+    <link rel="stylesheet" href="../setup_style.css">
+</head>
+
+<body>
+    <h1>Setup - Step 1</h1>
+    <p>
+        HomeUI needs a database to work.
+    </p>
+    <p>
+        Please now enter the database connection credentials.
+    </p>
+    <p>
+        For that you open the file "config.php" in your HomeUI folder.
+    </p>
+    <p>
+        There you put in the Credentials
+    </p>
+    <p class="warning">
+        <strong>Warning:</strong>
+        <br> If you want to use a dedicated user for the homeUI database, you need to create one manually.
+        <br> If you are to lazy to do that, just use the user "root"
+    </p>
+    <p>
+        When you are done, please click the button "Check connection credentials" below.
+    </p>
+    <p id="connection_check_result"></p>
+    <button id="check" onclick="checkDatabaseCredentials('en');">Check connection credentials</button>
+    <br>
+    <button id="continue" onclick="window.location.href='2.html'" disabled>Continue</button>
+    <br>
+    <button onclick="window.location.href='../index.php'">Back</button>
+
+    <!-- The standart script -->
+    <script src="../setup.js"></script>
+    <!-- JQuery -->
+    <script src="../jquery-3.6.0.min.js"></script>
+</body>
+
+</html>

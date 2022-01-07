@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeUI - Setup</title>
+    <!-- Link the stylesheet setup_style.css -->
+    <link rel="stylesheet" href="../setup_style.css">
+</head>
+
+<body>
+    <h1>Setup - Step 4</h1>
+    <h2>Login Credentials</h2>
+    <p>
+        Now we set the login credentials for the panel.
+    </p>
+    <p>
+        Please fill in the form and then press the button "Safe credentials" below.
+    </p>
+
+    <!-- We need a form for username and password -->
+    <!-- It will be send to createuser.php -->
+    <!-- Send "de" with it in a var called "lang" -->
+    <form action="../createuser.php" method="post">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" required>
+        <br>
+        <input type="hidden" name="lang" value="en">
+        <input type="submit" value="Safe credentials">
+    </form>
+
+    <!-- The standart script -->
+    <script src="../setup.js"></script>
+    <!-- JQuery -->
+    <script src="../jquery-3.6.0.min.js"></script>
+</body>
+
+</html>
