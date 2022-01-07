@@ -63,3 +63,26 @@ function checkDatabaseCredentials(lang) {
         }
     });
 }
+
+// 
+// Database creation
+//
+
+function createDatabase() {
+
+    // execute createdatabase.php
+    $.ajax({
+        url: '../createdatabase.php',
+        success: function(data) {
+            switch (data) {
+                case 'YES':
+                    // Redirect to 3.html
+                    window.location.href = "3.html";
+                    break;
+                default:
+                    alert(data);
+                    break;
+            }
+        }
+    });
+}
