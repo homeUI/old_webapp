@@ -1,5 +1,53 @@
+/* 
+The Font Family
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+/*
+All Variables
+*/
+
+:root {
+    --font-family: 'Source Code Pro', monospace;
+    --background-color: #002022;
+    --header-background-color: #3a2021;
+    --font-color: #f8f8f8;
+    --warning-font-color: #ff0000;
+    --button-border-color: #f8f8f8;
+    --button-background-color: #001a1a;
+}
+
+body,
+html {
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--font-color);
+    width: max-content;
+    margin: auto;
+}
+
+.left-right-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    gap: 0px 0px;
+    grid-template-areas: "left right";
+}
+
+.left {
+    grid-area: left;
+    margin-right: 15px;
+    text-align: right;
+}
+
+.right {
+    grid-area: right;
+    margin-left: 15px;
+}
+
 .warning {
-    color: #FF0000;
+    color: var(--warning-font-color);
 }
 
 .lang_flag {
@@ -12,4 +60,17 @@
 a {
     text-decoration: none;
     color: black;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    margin: auto;
 }
