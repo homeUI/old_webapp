@@ -15,6 +15,7 @@ Jedoch empfehle ich die Icons unter https://github.com/edent/SuperTinyIcons
 
 ## Anforderungen
 - Webserver mit PHP 7.2
+- SQL Datenbank
 
 ## Installation  
 - Kopiere den gesamten Ordner in dein Webserver-Verzeichnis (meist htdocs genannt)
