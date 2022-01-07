@@ -3,5 +3,8 @@
 }
 
 .lang_flag {
+    /* Change the flag size */
     height: 30px;
+    /* Change how the cursor looks */
+    cursor: pointer;
 }
