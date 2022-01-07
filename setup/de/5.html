@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeUI - Einrichtung</title>
+    <!-- Link the stylesheet setup_style.css -->
+    <link rel="stylesheet" href="../setup_style.css">
+</head>
+
+<body>
+    <h1>Einrichtung - Schritt 5</h1>
+    <h2>Einrichtung abschliessen</h2>
+    <p>
+        Gib nun hier nochmal deine Zugangsdaten ein, und drücke dann auf "Einrichtung abschliessen".
+    </p>
+    <!-- A form with username and Password fields -->
+    <!-- It will be sent to "complete.php" -->
+
+    <form action="../complete.php" method="post">
+        <label for="username">Benutzername:</label>
+        <input type="text" name="username" id="username" required>
+        <br>
+        <label for="password">Passwort:</label>
+        <input type="password" name="password" id="password" required>
+        <br>
+        <input type="hidden" name="lang" value="de">
+        <input type="submit" value="Einrichtung abschliessen">
+    </form>
+
+    <button><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Geheim!</a></button>
+
+    <!-- The standart script -->
+    <script src="../setup.js"></script>
+    <!-- JQuery -->
+    <script src="../jquery-3.6.0.min.js"></script>
+</body>
+
+</html>
