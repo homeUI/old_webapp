@@ -22,5 +22,6 @@ Jedoch empfehle ich die Icons unter https://github.com/edent/SuperTinyIcons
 - Starte den Webserver
 
 ## Einrichtung
-- Die Einrichtung muss noch manuell in der Datei index.php vorgenommen werden.
-- Dabei empfehle ich, icons in einem gesonderten Ordner zu haben, da sonst vieles schnell unübersichtlich wird.
+- Gehe auf die Website deines Homeservers (z.B. https://localhost/homeserver/) und dort wirst du dann durch den Einrichtungsprozess geführt.
+
+
