@@ -1,5 +1,10 @@
 # HomeserverUI
 This is an simple WebUI for your homeserver.
+<br>
+<h2>NOTE: THIS REPO IS NOT WORKED ON ANYMORE, PLEASE CHECK (https://github.com/homeUI/homeUI)[https://github.com/homeUI/homeUI]</h2>
+
+<br>
+<br>
 
 This readme is in german and english.  
 You can find the english version under the german version.  
